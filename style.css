@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Urbanist:wght@300;400;500;600;700;800;900&display=swap');
+
+/***** Base rule started *****/ 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+h1, h2, h3 , h4, h5, h6{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a, p, li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+/***** Base rule closed *****/
+
+
+/***** Layout rule started *****/ 
+.container{
+    width: 90%;
+    padding: 50px 0px;
+    margin: 0px auto;
+}
+
+.grid{
+    display: grid;
+    gap: 20px;
+}
+
+.grid-two-cols{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/***** Layout rule closed *****/
+
+
+/***** module rule started *****/ 
+.subheading{
+    color: #FFC178;
+    letter-spacing: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.section-heading{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
+.para{
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    line-height: 30px;
+    margin: 10px 0px;
+}
+
+.btn{
+    text-transform: uppercase;
+    font-size: 18px;
+    word-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px 0px;
+}
+
+.btn a{
+    color: #FFC178;
+}
+/***** module rule closed *****/
+
+
+/***** Nav Section started *****/ 
+.nav-section{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    color: white;
+}
+
+.nav-section .container .all-nav ul{
+    display: flex;
+    gap: 20px;
+
+}
+
+.all-nav ul li a {
+    color: white;
+    font-weight: 500;
+}
+
+.all-nav ul li:first-child a{
+    color: black;
+}
+
+.nav-logo h3 {
+    font-weight: 700;
+}
+/***** Nav Section closed *****/
+
+
+/***** Main section started *****/ 
+main{
+    background: url(Rectangle\ 1\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .container{
+    justify-content: start;
+    align-items: center;
+    padding: 300px 10px 400px 10px;
+}
+
+.main-heading{
+    font-size: 70px;
+    color: white;
+}
+
+.main-heading-2{
+    font-weight: 300;
+    line-height: 50px;
+}
+/***** Main section closed *****/
+
+
+/***** Holiday section started *****/ 
+.holiday-section{
+    background-color: black;
+}
+
+.holiday-section .container {
+    padding: 120px 10px 50px;
+}
+
+.holiday-img img {
+    width: 90%;
+}
+
+.holiday-content {
+    padding-top: 50px;
+}
+
+.holiday-btn{
+    padding-top: 50px;
+}
+/***** Holiday section closed *****/
+
+
+/***** Bromo section started *****/ 
+.bromo-section{
+    background-color: black;
+    padding: 50px 0px;
+}
+
+.bromo-section .container{
+    background: url(image\ 2\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 300px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.bromo-content{
+    width: 80%;
+    text-align: center;
+}
+
+.bromo-heading{
+    font-size: 70px;
+    line-height: 80px;
+}
+/***** Bromo section closed *****/
+
+
+/***** Culture section started *****/
+.culture-section{
+    background-color: black;
+}
+
+.culture-section .container{
+    padding: 50px 10px;
+}
+
+.culture-content{
+    padding-top: 150px;
+}
+
+.culture-heading{
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.culture-img{
+    display: flex;
+    justify-content: end;
+}
+
+.culture-img img{
+    width: 90%;
+}
+/***** Culture section closed *****/
+
+
+/***** Footer section started *****/ 
+.footer-section{
+    background-color: black;
+}
+
+.footer-section .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    color: white;
+    font-size: 60px;
+}
+
+.started{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ready a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+
+.get-started a{
+    color: black;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 15px 50px;
+    background: #FFA343;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.footer-section .grid {
+    padding-top: 0px;
+    text-transform: capitalize;
+}
+.footer-heading .section-heading{
+    width: 700px;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-title{
+    color: #FFA343;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.footer-section .grid a{
+    color: white;
+}
+
+.footer-section .grid ul li{
+    padding-bottom: 10px;
+}
+
+.footer-heading .terms{
+    padding: 20px 0px;
+}
+.footer-heading .footer-icons{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.copyright{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+/***** Footer section closed *****/
